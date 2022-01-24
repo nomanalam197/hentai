@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* .main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: black; 
+    display: flex;
+}
+
+.main #left {
+    height: 100%;
+    width: 30%;
+    background-color: lightcoral;
+    position: relative;
+}
+
+.main #centre {
+    background-image: url("https://th.bing.com/th/id/R.c984cc0f4b9a42e22258aa79ac927475?rik=8%2boveaFtJ%2fJqWQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-_QXE2udkHX0%2fUUAr9zUmgII%2fAAAAAAAAAi8%2finppHtLdtho%2fs1600%2fBeautiful%2bAkshara%2bSaree%2bCollection%2b2013%2b%2bAkshara%2bSaree%2bDesigns%2b8.jpg&ehk=MJOEdl7UeMg9dkihJHq4ajdD58PihTnGoK23q58IkcQ%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-position: centre;
+    height: 100%;
+    width: 50%;
+    background-color: brown;
+}
+
+.main #right {
+    height: 80%;
+    width: 20%;
+    background-color: green;
+    background-image: url("https://th.bing.com/th/id/OIP.hEShD4lk65bNUqk2MVr5SgHaLK?w=182&h=274&c=7&r=0&o=5&dpr=1.25&pid=1.7");
+    background-size: cover;
+    background-position: centre;
+}
+
+#left #ltext {
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 80%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+}
+
+#left #ltext h3 {
+    letter-spacing: 3px;
+}
+
+#ltext p {
+    color: red;
+}
+
+.main #rightt {
+    height: 20%;
+    width: 20%;
+    background-color: black;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+.main #rightt1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+}
+
+.main #dsighn {
+    width: 100%;
+    height: 7%;
+    background-color: blue;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: ;
+} */
+
+
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: rgb(44, 43, 43);
+}
+
+.left {
+    height: 100%;
+    width: 30%;
+    background-color: gainsboro;
+}
+
+.mid {
+    height: 100%;
+    width: 45%;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/580/723/708/naruto-hinata-hy%C5%ABga-hd-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.right {
+    height: 100%;
+    width: 25%;
+    background-color: white;
+}
+
+.top-div {
+    width: 100%;
+    height: 80%;
+    background-image: url("https://images8.alphacoders.com/545/thumbbig-545909.webp");
+    background-size: cover;
+    background-position: center;
+    /* border: 2px dotted red; */
+    border-left: 0;
+}
+.top-div:hover{
+   
+}
+
+.bottom-div {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    background-color: white;x
+}
+
+.info {
+    font-style: normal;
+    font-size: 70px;
+    font-family: "Hursheys";
+    font-weight:50;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke:1.5px red;
+}
+.bottom-div:hover{
+    color: white;
+    background-color: black;
+}
+.upper-h1 {
+    line-height: 135px;
+    color: white;
+    font-size: 160px;
+    font-family: 'Building';
+    -webkit-text-stroke:2px skyblue;
+}
+
+.cont-div {
+    position: absolute;
+    left: 7%;
+    top: 10%;
+    }
+
+.mid-div-h1 {
+    font-size: 50px;
+    position: absolute;
+    font-family: 'Building';
+    color: white;
+    top: 84%;
+    left: 470px;
+    -webkit-text-stroke:1px skyblue;
+}
+
+.name {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Building';
+    top: 79%;
+    left: 100px;
+    -webkit-text-stroke:1px skyblue;
+}
+
+.star {
+    -webkit-text-stroke:1px skyblue;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-family: 'Building';
+    top: 82%;
+    left: 450px;
+}
+
+.hrclass {
+    margin-top: 25%;
+}
+
+hr {
+    color: rgb(44, 43, 43);
+}
+
+.line {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    height: 7%;
+    width: 100%;
+    top: 70%;
+    border: 0.3px solid rgba(255, 255, 255, 0.26);
+
+border-left: none;
+border-right: none;
+
+}
+.line:hover{
+    background-color: rgba(32, 2, 2, 0.116);
+}
+.one {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(0, -50%);
+    color: yellow;
+}
+.two {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translate(0, -50%);
+    color: greenyellow;
+}
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    color: white;
+    border: 5px solid rgba(255, 255, 255, 0.445);
+    top: 20%;
+    left: 70%;
+    background-color: transparent;
+    -webkit-text-stroke: 1px black;
+    transform: transition .2s;
+
+}
+.circle:hover  {
+    background-color:rgba(95, 95, 95, 0.411);
+    transform: scale(1.1);
+
+}
+
+.circle #text {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 2px;
+    -webkit-text-stroke: 1px skyblue;
+}
+.main #circle1{
+    height: 140px;
+    width: 90px;
+    background-image: url("https://i.pinimg.com/236x/49/3c/b5/493cb576e11eb58b5eae3fd06056a493.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: 999;
+    left:24%;
+    top: 50%;
+    border: 2px solid yellow;
+
+}
